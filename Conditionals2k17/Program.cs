@@ -66,20 +66,19 @@ namespace Conditionals2k17
             Console.WriteLine("How old is your child?");
             int childAge = int.Parse(Console.ReadLine());
 
-            if (childAge <= 2)
+            if (childAge >= 0 && childAge <= 2)
             {
                 Console.WriteLine("Still in Mama's Arms");
             }
-
-            else if (childAge <= 5)
+            else if (childAge >= 3 && childAge <= 4)
             {
                 Console.WriteLine("Preschool Maniac");
             }
-            else if (childAge <=11)
+            else if (childAge >=5 && childAge <=11)
             {
                 Console.WriteLine("Elementary School");
             }
-            else if (childAge <= 14)
+            else if (childAge >= 12 && childAge <=14)
             {
                 Console.WriteLine("Middle School");
             }
