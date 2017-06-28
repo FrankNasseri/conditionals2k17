@@ -62,57 +62,99 @@ namespace Conditionals2k17
             //}
             ////how mucheach person is paying?
 
+            //Age Distribution Example
 
-            Console.WriteLine("How old is your child?");
-            int childAge = int.Parse(Console.ReadLine());
+            //Console.WriteLine("How old is your child?");
+            //int childAge = int.Parse(Console.ReadLine());
 
-            if (childAge >= 0 && childAge <= 2)
+            //if (childAge >= 0 && childAge <= 2)
+            //{
+            //    Console.WriteLine("Still in Mama's Arms");
+            //}
+            //else if (childAge >= 3 && childAge <= 4)
+            //{
+            //    Console.WriteLine("Preschool Maniac");
+            //}
+            //else if (childAge >=5 && childAge <=11)
+            //{
+            //    Console.WriteLine("Elementary School");
+            //}
+            //else if (childAge >= 12 && childAge <=14)
+            //{
+            //    Console.WriteLine("Middle School");
+            //}
+            //else if (childAge >=15 && childAge <= 18)
+            //{
+            //    Console.WriteLine("High-School");
+            //}
+            //else if (childAge >=19 && childAge <= 22)
+            //{
+            //    Console.WriteLine("College");
+            //}
+            //else if (childAge >=23 && childAge <= 65)
+            //{
+            //    Console.WriteLine("Working for the Man");
+            //}
+            //else if (childAge >=66 && childAge <= 100)
+            //{
+            //    Console.WriteLine("The Golden Years");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("This Program is For Humans");
+            //}
+
+
+            //Words to Digits
+
+            Console.WriteLine("Please enter the string vale of the number ie: one,two,three (0-10)");
+
+            string number = Console.ReadLine();
+            switch (number)
             {
-                Console.WriteLine("Still in Mama's Arms");
+                case "zero":
+                    Console.WriteLine("0");
+                    break;
+                case "one":
+                    Console.WriteLine("1");
+                    break;
+                case "two":
+                    Console.WriteLine("2");
+                    break;
+                case "three":
+                    Console.WriteLine("3");
+                    break;
+                case "four":
+                    Console.WriteLine("4");
+                    break;
+                case "five":
+                    Console.WriteLine("5");
+                    break;
+                case "six":
+                    Console.WriteLine("6");
+                    break;
+                case "seven":
+                    Console.WriteLine("7");
+                    break;
+                case "eight":
+                    Console.WriteLine("8");
+                    break;
+                case "nine":
+                    Console.WriteLine("9");
+                    break;
+                case "ten":
+                    Console.WriteLine("10");
+                    break;
             }
-            else if (childAge >= 3 && childAge <= 4)
-            {
-                Console.WriteLine("Preschool Maniac");
-            }
-            else if (childAge >=5 && childAge <=11)
-            {
-                Console.WriteLine("Elementary School");
-            }
-            else if (childAge >= 12 && childAge <=14)
-            {
-                Console.WriteLine("Middle School");
-            }
-            else if (childAge <= 18)
-            {
-                Console.WriteLine("High-School");
-            }
-            else if (childAge <= 22)
-            {
-                Console.WriteLine("College");
-            }
-            else if (childAge <= 65)
-            {
-                Console.WriteLine("Working for the Man");
-            }
-            else if (childAge <= 100)
-            {
-                Console.WriteLine("The Golden Years");
-            }
-            else
-            {
-                Console.WriteLine("This Program is For Humans");
+
+
+
+
+
+
+
+
 
             }
-
-
-
-
-
-
-
-
-
-
-        }
     }
 }
